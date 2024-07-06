@@ -1,0 +1,337 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("/src/images/background.png");
+
+    
+}
+
+.parent {
+    padding: 0px;
+    margin: 0px;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.hadithRow__action {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-75%);
+    background-color: #ddd;
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    display: none;
+}
+
+.hadithRow {
+    position: relative;
+    transform: scale(1);
+}
+
+.chatGround {
+    border-radius: 30px;
+    background-image: url("/src/images/chat.png");
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    z-index: 10000000;
+}
+
+.BtnAdd,
+.input,
+.rest,
+.menu,
+.subbooks {
+    border: 2px solid;
+
+    border-bottom: 1px #f3dd61 solid;
+    border-top: 1px #116746 solid;
+    border-left: 1px #116746 solid;
+    border-right: 1px #f3dd61 solid;
+}
+
+.BtnAdd,
+.input,
+.rest,
+.menu {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form {
+    border: 5px solid;
+
+    border-bottom: 5px #116746 solid;
+    border-top: 5px #116746d5 solid;
+    border-left: 5px #f3dd61 solid;
+    border-right:5px #f3dd61 solid;
+}
+
+.borders {
+    border-radius: "30px" !important;
+    -webkit-border-radius: "30px" !important;
+    -moz-border-radius: "30px" !important;
+    -ms-border-radius: "30px" !important;
+    -o-border-radius: "30px" !important;
+}
+
+.hadithName {
+    color: black !important;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+}
+
+.MuiPaper-root.MuiAccordion-root {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.input {
+    background-color: transparent;
+}
+
+.input::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+.file[type="file"] {
+    display: none;
+}
+
+.chatHeader {
+    border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -ms-border-radius: 30px 30px 0px 0px;
+    -o-border-radius: 30px 30px 0px 0px;
+}
+
+.scroll {
+    scrollbar-width: 0px;
+}
+
+.scroll {
+    scrollbar-color: #ddc469 #e0e0e0;
+    scrollbar-width: none;
+}
+
+.down-arrow {
+    position: absolute;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    left: 45px;
+    border-bottom: 20px solid green;
+
+    margin: 0px auto;
+}
+
+.down-arrow:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+/* .menu{
+  border-radius: 30px;
+  scrollbar-color: #072541 green;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+} */
+.Settings {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #02020289;
+}
+
+.modal div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 200px;
+}
+
+.edit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #02020289;
+}
+
+/* .chatsForm{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #02020289;
+} */
+
+/* =================== EDIT CHAT CSS ===========================*/
+.chatsForm .chatGround {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -45%);
+    width: 800px;
+    background-color: white;
+    -webkit-transform: translate(-30%, -45%);
+    -moz-transform: translate(-30%, -45%);
+    -ms-transform: translate(-30%, -45%);
+    -o-transform: translate(-30%, -45%);
+}
+
+.edit form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+    background-color: white;
+}
+
+.edit .chatGround {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    width: 700px;
+    background-color: white;
+    -webkit-transform: translate(-30%, -50%);
+    -moz-transform: translate(-30%, -50%);
+    -ms-transform: translate(-30%, -50%);
+    -o-transform: translate(-30%, -50%);
+}
+
+.status {
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.margin {
+    margin-left: -70px !important;
+}
+
+.chatPersonal {
+    margin-left: -100px !important;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+}
+
+.SideBar {
+    scrollbar-color: #072541 rgba(255, 255, 255, 0);
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px #00000080;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    border-radius: 30px;
+    min-width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #116746;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:nth-child(
+        2
+    ) {
+    background-color: #e41c1c;
+}
+.confirmationPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.confirmationPopup p {
+  margin-bottom: 10px;
+}
+
+.confirmationPopup button {
+  margin-right: 10px;
+}
+

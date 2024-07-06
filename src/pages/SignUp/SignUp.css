@@ -1,0 +1,30 @@
+.btn7{
+    background-color: #fff;
+    color: #116746;
+border: 1px solid #116746;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 300px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px auto;
+    transition: .5s;
+    margin-top: 50px;
+}
+.btn7:active{
+    scale: .9;
+}
+
+.line1::after{
+    content: '';
+    display: block;
+    width: 150px;
+    height: 2px;
+    margin: 1.375em 0;
+    background: #444443;
+    bottom: 0;
+
+}
